@@ -1,0 +1,21 @@
+<core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core">
+    <Dialog id="idChooseCountryDialog" resizable="false" title="Choose Country">
+        <Toolbar>
+            <SearchField
+                    liveChange="onSearch"
+                    width="100%"/>
+        </Toolbar>
+        <List id="idChooseCountryList" mode="SingleSelectMaster"
+              items="{
+						path: 'countries>/',
+						sorter: { path: 'CountryName' }
+					}"
+              selectionChange="onChooseCountry" growing="true"
+              growingThreshold="100" growingScrollToLoad="true">
+            <StandardListItem title="{countries>CountryName}"/>
+        </List>
+        <buttons>
+            <Button text="Cancel" press="onChooseCountryCloseDialog"/>
+        </buttons>
+    </Dialog>
+</core:FragmentDefinition>

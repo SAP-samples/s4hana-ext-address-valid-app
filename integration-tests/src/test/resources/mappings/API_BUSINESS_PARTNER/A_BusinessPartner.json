@@ -1,0 +1,125 @@
+{
+	"request": {
+		"method": "GET",
+		"urlPattern": "/sap/opu/odata/sap/API_BUSINESS_PARTNER/A_BusinessPartner(.*)1000090(.*)"
+	},
+	"response": {
+		"status": 200,
+		"jsonBody": {
+				        "d":
+			                {
+			                    "__metadata":
+			                    {
+			                        "id": "https://myXXXXXX-api.s4hana.ondemand.com/sap/opu/odata/sap/API_BUSINESS_PARTNER/A_BusinessPartner('1000090')",
+			                        "uri": "https://myXXXXXX-api.s4hana.ondemand.com/sap/opu/odata/sap/API_BUSINESS_PARTNER/A_BusinessPartner('1000090')",
+			                        "type": "API_BUSINESS_PARTNER.A_BusinessPartnerType"
+						        },
+						        "BusinessPartner": "1000090",
+						        "Customer": "0000000000",
+						        "BusinessPartnerFullName": "A Cömpany That Makes Everything Inc.",
+						        "AcademicTitle": "",
+						        "FirstName": "",
+						        "LastName": "",
+						        "PersonNumber": "",
+						        "YY1_AddrConfState_bus": "",
+						        "YY1_AddressChecksum_bus": "",
+						        "to_BusinessPartnerAddress": {
+			                        "results":
+			                        [
+			                            {
+			                                "__metadata":
+			                                {
+			                                    "id": "https://myXXXXXX-api.s4hana.ondemand.com/sap/opu/odata/sap/API_BUSINESS_PARTNER/A_BusinessPartner('1000090')/to_BusinessPartnerAddress",
+			                        			"uri": "https://myXXXXXX-api.s4hana.ondemand.com/sap/opu/odata/sap/API_BUSINESS_PARTNER/A_BusinessPartner('1000090')/to_BusinessPartnerAddress",
+			                                    "type": "API_BUSINESS_PARTNER.A_BusinessPartnerAddressType"
+			                                },
+			                                "AddressID": "37384",
+											"BusinessPartner": "1000090",
+											"Person": "0123456789",
+											"StreetName": "Very long street name who knows how long could they be",
+											"HouseNumber": "7 corp. 8A",
+											"HouseNumberSupplementText": "10ChrsOnly",
+											"CityCode": "1234567-CBLR",
+											"CityName": "Chateaubelair",
+											"County": "Chateaubelair County",
+											"Country": "DE", 
+											"Language": "DE", 
+											"ValidityStartDate": "2018-03-07T02:55:16Z",
+											"ValidityEndDate": "2018-03-07T02:55:16Z",
+											"AuthorizationGroup": "1234",
+											"AdditionalStreetPrefixName": "additionalStreetPrefixName",
+											"AdditionalStreetSuffixName": "additionalStreetSuffixName",
+											"AddressTimeZone": "UTC+06",
+											"CareOfName": "careOfName",
+											"CompanyPostalCode": "0123456789",
+											"DeliveryServiceNumber": "0123456789",
+											"DeliveryServiceTypeCode": "1234",
+											"District": "district",
+											"FormOfAddress": "1234",
+											"FullName": "fullName",
+											"HomeCityName": "homeCityName",
+											"POBox": "pOBox",
+											"POBoxDeviatingCityName": "pOBoxDeviatingCityName",
+											"POBoxDeviatingCountry": "123",
+											"POBoxDeviatingRegion": "123",
+											"POBoxIsWithoutNumber": true,
+											"POBoxLobbyName": "pOBoxLobbyName",
+											"POBoxPostalCode": "postalCode",
+											"PostalCode": "postalCode",
+											"PrfrdCommMediumType": "pmt",
+											"Region": "rgn",
+											"StreetPrefixName": "streetPrefixName",
+											"StreetSuffixName": "streetSuffixName",
+											"TaxJurisdiction": "taxJurisdiction",
+											"TransportZone": "trnsptZone",
+											"AddressIDByExternalSystem": "addressIDByExtSys"
+			                            }
+			                        ]
+			                    },
+						        "to_BuPaIdentification": {
+						          "__deferred": {
+						            "uri": "https://myXXXXXX-api.s4hana.ondemand.com/sap/opu/odata/sap/API_BUSINESS_PARTNER/A_BusinessPartner('1000090')/to_BuPaIdentification"
+						          }
+						        },
+						        "to_BuPaIndustry": {
+						          "__deferred": {
+						            "uri": "https://myXXXXXX-api.s4hana.ondemand.com/sap/opu/odata/sap/API_BUSINESS_PARTNER/A_BusinessPartner('1000090')/to_BuPaIndustry"
+						          }
+						        },
+						        "to_BusinessPartnerBank": {
+						          "__deferred": {
+						            "uri": "https://myXXXXXX-api.s4hana.ondemand.com/sap/opu/odata/sap/API_BUSINESS_PARTNER/A_BusinessPartner('1000090')/to_BusinessPartnerBank"
+						          }
+						        },
+						        "to_BusinessPartnerContact": {
+						          "__deferred": {
+						            "uri": "https://myXXXXXX-api.s4hana.ondemand.com/sap/opu/odata/sap/API_BUSINESS_PARTNER/A_BusinessPartner('1000090')/to_BusinessPartnerContact"
+						          }
+						        },
+						        "to_BusinessPartnerRole": {
+						          "__deferred": {
+						            "uri": "https://myXXXXXX-api.s4hana.ondemand.com/sap/opu/odata/sap/API_BUSINESS_PARTNER/A_BusinessPartner('1000090')/to_BusinessPartnerRole"
+						          }
+						        },
+						        "to_BusinessPartnerTax": {
+						          "__deferred": {
+						            "uri": "https://myXXXXXX-api.s4hana.ondemand.com/sap/opu/odata/sap/API_BUSINESS_PARTNER/A_BusinessPartner('1000090')/to_BusinessPartnerTax"
+						          }
+						        },
+						        "to_Customer": {
+						          "__deferred": {
+						            "uri": "https://myXXXXXX-api.s4hana.ondemand.com/sap/opu/odata/sap/API_BUSINESS_PARTNER/A_BusinessPartner('1000090')/to_Customer"
+						          }
+						        },
+						        "to_Supplier": {
+						          "__deferred": {
+						            "uri": "https://myXXXXXX-api.s4hana.ondemand.com/sap/opu/odata/sap/API_BUSINESS_PARTNER/A_BusinessPartner('1000090')/to_Supplier"
+						          }
+						        }
+			                }
+				    },
+		"headers": {
+			"Content-Type": "application/json"
+		}
+	}
+}

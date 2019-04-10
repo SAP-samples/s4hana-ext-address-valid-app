@@ -1,0 +1,38 @@
+{
+	"request": {
+		"method": "GET",
+		"urlPattern": "/sap/opu/odata/sap/YY1_COUNTRIES_CDS/YY1_COUNTRIES(.*)"
+	},
+	"response": {
+		"status": 200,
+		"jsonBody": {
+		    "d": {
+		        "results": [
+		            {
+		                "__metadata": {
+		                    "id": "https://myXXXXXX-api.s4hana.ondemand.com/sap/opu/odata/sap/YY1_COUNTRIES_CDS/YY1_COUNTRIES(Country='DE',Language='E')",
+		                    "uri": "https://myXXXXXX-api.s4hana.ondemand.com/sap/opu/odata/sap/YY1_COUNTRIES_CDS/YY1_COUNTRIES(Country='DE',Language='E')",
+		                    "type": "YY1_COUNTRIES_CDS.YY1_COUNTRIESType"
+		                },
+		                "Country": "DE",
+		                "Language": "EN",
+		                "CountryName": "Germany"
+		            },
+		            {
+		                "__metadata": {
+		                    "id": "https://myXXXXXX-api.s4hana.ondemand.com/sap/opu/odata/sap/YY1_COUNTRIES_CDS/YY1_COUNTRIES(Country='MS',Language='E')",
+		                    "uri": "https://myXXXXXX-api.s4hana.ondemand.com/sap/opu/odata/sap/YY1_COUNTRIES_CDS/YY1_COUNTRIES(Country='MS',Language='E')",
+		                    "type": "YY1_COUNTRIES_CDS.YY1_COUNTRIESType"
+		                },
+		                "Country": "MS",
+		                "Language": "EN",
+		                "CountryName": "Montserrat"
+		            }
+		        ]
+		    }
+		},
+		"headers": {
+			"Content-Type": "application/json"
+		}
+	}
+}

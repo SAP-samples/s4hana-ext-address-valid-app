@@ -1,0 +1,13 @@
+{
+    "request": {
+        "method": "GET",
+        "url": "/sap/opu/odata/sap/API_BUSINESS_PARTNER/$metadata"
+    },
+    "response": {
+        "status": 200,
+        "bodyFileName": "API_BUSINESS_PARTNER/$metadata.xml",
+        "headers": {
+            "Content-Type": "application/xml"
+        }
+    }
+}

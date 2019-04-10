@@ -1,0 +1,8 @@
+{
+	"code" : "SAPException",
+	"message" : "Error when trying to execute a method using a JWT token from XSUAA service",
+	"innererror" : {
+		"code" : "SAPSecurityException",
+		"message" : "Token expired. Please contact your contact person to resend the address confirmation email."
+	}
+}

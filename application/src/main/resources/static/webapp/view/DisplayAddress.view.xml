@@ -1,0 +1,72 @@
+<mvc:View
+	height="100%"
+	controllerName="sap.enterpriseEventing.ui.controller.DisplayAddress"
+	xmlns:mvc="sap.ui.core.mvc"
+	xmlns="sap.m"
+	xmlns:l="sap.ui.layout"
+	xmlns:f="sap.ui.layout.form"
+	xmlns:core="sap.ui.core">
+	<Page id="displayAddress" showHeader="true" title="Business Partner Address Approve" busy="{viewModel>/busy}"
+		busyIndicatorDelay="{viewModel>/delay}">
+		
+		<VBox class="sapUiSmallMargin">
+			<f:Form id="displayAddressForm"
+				editable="false">
+				<f:title>
+					<core:Title text="Address" />
+				</f:title>
+				<f:layout>
+					<f:ResponsiveGridLayout
+						labelSpanXL="3"
+						labelSpanL="3"
+						labelSpanM="3"
+						labelSpanS="12"
+						adjustLabelSpan="false"
+						emptySpanXL="4"
+						emptySpanL="4"
+						emptySpanM="4"
+						emptySpanS="0"
+						columnsXL="1"
+						columnsL="1"
+						columnsM="1"
+						singleContainerFullSize="false" />
+				</f:layout>
+				<f:formContainers>
+					<f:FormContainer>
+						<f:formElements>
+							<f:FormElement label="Name">
+								<f:fields>
+									<Text text="{/fullName}" id="nameText"  />
+								</f:fields>
+							</f:FormElement>
+							<f:FormElement label="Street">
+								<f:fields>
+									<Text text="{/streetName} {/houseNumber}" />
+								</f:fields>
+							</f:FormElement>
+							<f:FormElement label="ZIP Code/City">
+								<f:fields>
+									<Text text="{/postalCode} {/cityName}" />
+								</f:fields>
+							</f:FormElement>
+							<f:FormElement label="Country">
+								<f:fields>
+									<Text text="{viewModel>/countryName}" id="countryText" />
+								</f:fields>
+							</f:FormElement>
+						</f:formElements>
+					</f:FormContainer>
+				</f:formContainers>
+			</f:Form>
+		</VBox>
+		
+		<footer>
+			<Bar>
+				<contentRight>
+					<Button id="editButton" text="Edit" press="onEditPress" />
+					<Button id="approveButton" text="Approve" press="onApprovePress" />
+				</contentRight>
+			</Bar>
+		</footer>
+	</Page>
+</mvc:View>

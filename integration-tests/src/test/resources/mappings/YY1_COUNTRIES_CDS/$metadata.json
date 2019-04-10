@@ -1,0 +1,13 @@
+{
+    "request": {
+        "method": "GET",
+        "url": "/sap/opu/odata/sap/YY1_COUNTRIES_CDS/$metadata"
+    },
+    "response": {
+        "status": 200,
+        "bodyFileName": "YY1_COUNTRIES_CDS/$metadata.xml",
+        "headers": {
+            "Content-Type": "application/xml"
+        }
+    }
+}

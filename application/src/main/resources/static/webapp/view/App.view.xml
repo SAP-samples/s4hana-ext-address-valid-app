@@ -1,0 +1,11 @@
+<mvc:View
+	controllerName="sap.enterpriseEventing.ui.controller.App"
+	xmlns="sap.m"
+	xmlns:mvc="sap.ui.core.mvc"
+	displayBlock="true">
+	<App id="app">
+		<Panel class="sapUiMediumMargin">
+			<Text class="sapUiSmallMargin" text="Dear user, you are not supposed to navigate to the root URL. Please click on the link you received via Email." />
+		</Panel>
+	</App>
+</mvc:View>

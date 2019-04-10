@@ -1,0 +1,1745 @@
+[
+  {
+    "Country": "DE",
+    "Language": "EN",
+    "CountryName": "Germany",
+    "CountryThreeLetterISOCode": "DEU",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "US",
+    "Language": "EN",
+    "CountryName": "USA",
+    "CountryThreeLetterISOCode": "USA",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "AD",
+    "Language": "EN",
+    "CountryName": "Andorra",
+    "CountryThreeLetterISOCode": "AND",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "AE",
+    "Language": "EN",
+    "CountryName": "United Arab Emirates",
+    "CountryThreeLetterISOCode": "ARE",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "AF",
+    "Language": "EN",
+    "CountryName": "Afghanistan",
+    "CountryThreeLetterISOCode": "AFG",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "AG",
+    "Language": "EN",
+    "CountryName": "Antigua and Barbuda",
+    "CountryThreeLetterISOCode": "ATG",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "AI",
+    "Language": "EN",
+    "CountryName": "Anguilla",
+    "CountryThreeLetterISOCode": "AIA",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "AL",
+    "Language": "EN",
+    "CountryName": "Albania",
+    "CountryThreeLetterISOCode": "ALB",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "AM",
+    "Language": "EN",
+    "CountryName": "Armenia",
+    "CountryThreeLetterISOCode": "ARM",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "AO",
+    "Language": "EN",
+    "CountryName": "Angola",
+    "CountryThreeLetterISOCode": "AGO",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "AR",
+    "Language": "EN",
+    "CountryName": "Argentina",
+    "CountryThreeLetterISOCode": "ARG",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "AS",
+    "Language": "EN",
+    "CountryName": "American Samoa",
+    "CountryThreeLetterISOCode": "ASM",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "AT",
+    "Language": "EN",
+    "CountryName": "Austria",
+    "CountryThreeLetterISOCode": "AUT",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "AU",
+    "Language": "EN",
+    "CountryName": "Australia",
+    "CountryThreeLetterISOCode": "AUS",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "AQ",
+    "Language": "EN",
+    "CountryName": "Antarctica",
+    "CountryThreeLetterISOCode": "ATA",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "AZ",
+    "Language": "EN",
+    "CountryName": "Azerbaijan",
+    "CountryThreeLetterISOCode": "AZE",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "AX",
+    "Language": "EN",
+    "CountryName": "Aland Islands",
+    "CountryThreeLetterISOCode": "ALA",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "BD",
+    "Language": "EN",
+    "CountryName": "Bangladesh",
+    "CountryThreeLetterISOCode": "BGD",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "AW",
+    "Language": "EN",
+    "CountryName": "Aruba",
+    "CountryThreeLetterISOCode": "ABW",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "BB",
+    "Language": "EN",
+    "CountryName": "Barbados",
+    "CountryThreeLetterISOCode": "BRB",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "BA",
+    "Language": "EN",
+    "CountryName": "Bosnia and Herzegovina",
+    "CountryThreeLetterISOCode": "BIH",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "BE",
+    "Language": "EN",
+    "CountryName": "Belgium",
+    "CountryThreeLetterISOCode": "BEL",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "BF",
+    "Language": "EN",
+    "CountryName": "Burkina Faso",
+    "CountryThreeLetterISOCode": "BFA",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "BH",
+    "Language": "EN",
+    "CountryName": "Bahrain",
+    "CountryThreeLetterISOCode": "BHR",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "BL",
+    "Language": "EN",
+    "CountryName": "Saint Barthelemy",
+    "CountryThreeLetterISOCode": "BLM",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "BJ",
+    "Language": "EN",
+    "CountryName": "Benin",
+    "CountryThreeLetterISOCode": "BEN",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "BG",
+    "Language": "EN",
+    "CountryName": "Bulgaria",
+    "CountryThreeLetterISOCode": "BGR",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "BM",
+    "Language": "EN",
+    "CountryName": "Bermuda",
+    "CountryThreeLetterISOCode": "BMU",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "BN",
+    "Language": "EN",
+    "CountryName": "Brunei Darussalam",
+    "CountryThreeLetterISOCode": "BRN",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "BI",
+    "Language": "EN",
+    "CountryName": "Burundi",
+    "CountryThreeLetterISOCode": "BDI",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "BO",
+    "Language": "EN",
+    "CountryName": "Bolivia",
+    "CountryThreeLetterISOCode": "BOL",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "BS",
+    "Language": "EN",
+    "CountryName": "Bahamas",
+    "CountryThreeLetterISOCode": "BHS",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "BW",
+    "Language": "EN",
+    "CountryName": "Botswana",
+    "CountryThreeLetterISOCode": "BWA",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "BV",
+    "Language": "EN",
+    "CountryName": "Bouvet Islands",
+    "CountryThreeLetterISOCode": "BVT",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "BQ",
+    "Language": "EN",
+    "CountryName": "Bonaire, Sint Eustatius and Saba",
+    "CountryThreeLetterISOCode": "BES",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "BR",
+    "Language": "EN",
+    "CountryName": "Brazil",
+    "CountryThreeLetterISOCode": "BRA",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "BT",
+    "Language": "EN",
+    "CountryName": "Bhutan",
+    "CountryThreeLetterISOCode": "BTN",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "BZ",
+    "Language": "EN",
+    "CountryName": "Belize",
+    "CountryThreeLetterISOCode": "BLZ",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "CC",
+    "Language": "EN",
+    "CountryName": "Cocos (Keeling) Islands",
+    "CountryThreeLetterISOCode": "CCK",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "BY",
+    "Language": "EN",
+    "CountryName": "Belarus",
+    "CountryThreeLetterISOCode": "BLR",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "CD",
+    "Language": "EN",
+    "CountryName": "Democratic Republic of the Congo",
+    "CountryThreeLetterISOCode": "COD",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "CA",
+    "Language": "EN",
+    "CountryName": "Canada",
+    "CountryThreeLetterISOCode": "CAN",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "CF",
+    "Language": "EN",
+    "CountryName": "Central African Republic",
+    "CountryThreeLetterISOCode": "CAF",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "CG",
+    "Language": "EN",
+    "CountryName": "Republic of the Congo",
+    "CountryThreeLetterISOCode": "COG",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "CI",
+    "Language": "EN",
+    "CountryName": "Cote d'Ivoire",
+    "CountryThreeLetterISOCode": "CIV",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "CH",
+    "Language": "EN",
+    "CountryName": "Switzerland",
+    "CountryThreeLetterISOCode": "CHE",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "CK",
+    "Language": "EN",
+    "CountryName": "Cook Islands",
+    "CountryThreeLetterISOCode": "COK",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "CL",
+    "Language": "EN",
+    "CountryName": "Chile",
+    "CountryThreeLetterISOCode": "CHL",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "CM",
+    "Language": "EN",
+    "CountryName": "Cameroon",
+    "CountryThreeLetterISOCode": "CMR",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "CN",
+    "Language": "EN",
+    "CountryName": "China",
+    "CountryThreeLetterISOCode": "CHN",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "CR",
+    "Language": "EN",
+    "CountryName": "Costa Rica",
+    "CountryThreeLetterISOCode": "CRI",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "CV",
+    "Language": "EN",
+    "CountryName": "Cape Verde",
+    "CountryThreeLetterISOCode": "CPV",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "CU",
+    "Language": "EN",
+    "CountryName": "Cuba",
+    "CountryThreeLetterISOCode": "CUB",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "CW",
+    "Language": "EN",
+    "CountryName": "Curaçao",
+    "CountryThreeLetterISOCode": "CUW",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "CO",
+    "Language": "EN",
+    "CountryName": "Colombia",
+    "CountryThreeLetterISOCode": "COL",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "CX",
+    "Language": "EN",
+    "CountryName": "Christmas Island",
+    "CountryThreeLetterISOCode": "CXR",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "CY",
+    "Language": "EN",
+    "CountryName": "Cyprus",
+    "CountryThreeLetterISOCode": "CYP",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "CZ",
+    "Language": "EN",
+    "CountryName": "Czech Republic",
+    "CountryThreeLetterISOCode": "CZE",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "DK",
+    "Language": "EN",
+    "CountryName": "Denmark",
+    "CountryThreeLetterISOCode": "DNK",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "DJ",
+    "Language": "EN",
+    "CountryName": "Djibouti",
+    "CountryThreeLetterISOCode": "DJI",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "QA",
+    "Language": "EN",
+    "CountryName": "Qatar",
+    "CountryThreeLetterISOCode": "QAT",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "DO",
+    "Language": "EN",
+    "CountryName": "Dominican Republic",
+    "CountryThreeLetterISOCode": "DOM",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "DZ",
+    "Language": "EN",
+    "CountryName": "Algeria",
+    "CountryThreeLetterISOCode": "DZA",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "DM",
+    "Language": "EN",
+    "CountryName": "Dominica",
+    "CountryThreeLetterISOCode": "DMA",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "EC",
+    "Language": "EN",
+    "CountryName": "Ecuador",
+    "CountryThreeLetterISOCode": "ECU",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "EG",
+    "Language": "EN",
+    "CountryName": "Egypt",
+    "CountryThreeLetterISOCode": "EGY",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "ER",
+    "Language": "EN",
+    "CountryName": "Eritrea",
+    "CountryThreeLetterISOCode": "ERI",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "EE",
+    "Language": "EN",
+    "CountryName": "Estonia",
+    "CountryThreeLetterISOCode": "EST",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "EH",
+    "Language": "EN",
+    "CountryName": "West Sahara",
+    "CountryThreeLetterISOCode": "ESH",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "ET",
+    "Language": "EN",
+    "CountryName": "Ethiopia",
+    "CountryThreeLetterISOCode": "ETH",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "ES",
+    "Language": "EN",
+    "CountryName": "Spain",
+    "CountryThreeLetterISOCode": "ESP",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "FK",
+    "Language": "EN",
+    "CountryName": "Falkland Islands",
+    "CountryThreeLetterISOCode": "FLK",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "FM",
+    "Language": "EN",
+    "CountryName": "Micronesia",
+    "CountryThreeLetterISOCode": "FSM",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "FI",
+    "Language": "EN",
+    "CountryName": "Finland",
+    "CountryThreeLetterISOCode": "FIN",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "FO",
+    "Language": "EN",
+    "CountryName": "Faroe Islands",
+    "CountryThreeLetterISOCode": "FRO",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "GA",
+    "Language": "EN",
+    "CountryName": "Gabon",
+    "CountryThreeLetterISOCode": "GAB",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "FR",
+    "Language": "EN",
+    "CountryName": "France",
+    "CountryThreeLetterISOCode": "FRA",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "GD",
+    "Language": "EN",
+    "CountryName": "Grenada",
+    "CountryThreeLetterISOCode": "GRD",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "FJ",
+    "Language": "EN",
+    "CountryName": "Fiji",
+    "CountryThreeLetterISOCode": "FJI",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "GB",
+    "Language": "EN",
+    "CountryName": "United Kingdom",
+    "CountryThreeLetterISOCode": "GBR",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "GE",
+    "Language": "EN",
+    "CountryName": "Georgia",
+    "CountryThreeLetterISOCode": "GEO",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "GF",
+    "Language": "EN",
+    "CountryName": "French Guyana",
+    "CountryThreeLetterISOCode": "GUF",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "GI",
+    "Language": "EN",
+    "CountryName": "Gibraltar",
+    "CountryThreeLetterISOCode": "GIB",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "GM",
+    "Language": "EN",
+    "CountryName": "Gambia",
+    "CountryThreeLetterISOCode": "GMB",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "GH",
+    "Language": "EN",
+    "CountryName": "Ghana",
+    "CountryThreeLetterISOCode": "GHA",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "GG",
+    "Language": "EN",
+    "CountryName": "Guernsey",
+    "CountryThreeLetterISOCode": "GGY",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "GL",
+    "Language": "EN",
+    "CountryName": "Greenland",
+    "CountryThreeLetterISOCode": "GRL",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "GQ",
+    "Language": "EN",
+    "CountryName": "Equatorial Guinea",
+    "CountryThreeLetterISOCode": "GNQ",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "GN",
+    "Language": "EN",
+    "CountryName": "Guinea",
+    "CountryThreeLetterISOCode": "GIN",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "GP",
+    "Language": "EN",
+    "CountryName": "Guadeloupe",
+    "CountryThreeLetterISOCode": "GLP",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "GR",
+    "Language": "EN",
+    "CountryName": "Greece",
+    "CountryThreeLetterISOCode": "GRC",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "GT",
+    "Language": "EN",
+    "CountryName": "Guatemala",
+    "CountryThreeLetterISOCode": "GTM",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "GW",
+    "Language": "EN",
+    "CountryName": "Guinea-Bissau",
+    "CountryThreeLetterISOCode": "GNB",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "GS",
+    "Language": "EN",
+    "CountryName": "South Georgia and the Southern Sandwich Islands",
+    "CountryThreeLetterISOCode": "SGS",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "GU",
+    "Language": "EN",
+    "CountryName": "Guam",
+    "CountryThreeLetterISOCode": "GUM",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "HN",
+    "Language": "EN",
+    "CountryName": "Honduras",
+    "CountryThreeLetterISOCode": "HND",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "GY",
+    "Language": "EN",
+    "CountryName": "Guyana",
+    "CountryThreeLetterISOCode": "GUY",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "HK",
+    "Language": "EN",
+    "CountryName": "Hong Kong",
+    "CountryThreeLetterISOCode": "HKG",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "HR",
+    "Language": "EN",
+    "CountryName": "Croatia",
+    "CountryThreeLetterISOCode": "HRV",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "HM",
+    "Language": "EN",
+    "CountryName": "Heard and McDonald Islands",
+    "CountryThreeLetterISOCode": "HMD",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "HT",
+    "Language": "EN",
+    "CountryName": "Haiti",
+    "CountryThreeLetterISOCode": "HTI",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "HU",
+    "Language": "EN",
+    "CountryName": "Hungary",
+    "CountryThreeLetterISOCode": "HUN",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "IL",
+    "Language": "EN",
+    "CountryName": "Israel",
+    "CountryThreeLetterISOCode": "ISR",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "IE",
+    "Language": "EN",
+    "CountryName": "Ireland",
+    "CountryThreeLetterISOCode": "IRL",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "IM",
+    "Language": "EN",
+    "CountryName": "Isle of Man",
+    "CountryThreeLetterISOCode": "IMN",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "ID",
+    "Language": "EN",
+    "CountryName": "Indonesia",
+    "CountryThreeLetterISOCode": "IDN",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "IO",
+    "Language": "EN",
+    "CountryName": "British Indian Ocean Territory",
+    "CountryThreeLetterISOCode": "IOT",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "IN",
+    "Language": "EN",
+    "CountryName": "India",
+    "CountryThreeLetterISOCode": "IND",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "IR",
+    "Language": "EN",
+    "CountryName": "Iran",
+    "CountryThreeLetterISOCode": "IRN",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "JE",
+    "Language": "EN",
+    "CountryName": "Jersey",
+    "CountryThreeLetterISOCode": "JEY",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "IQ",
+    "Language": "EN",
+    "CountryName": "Iraq",
+    "CountryThreeLetterISOCode": "IRQ",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "IS",
+    "Language": "EN",
+    "CountryName": "Iceland",
+    "CountryThreeLetterISOCode": "ISL",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "IT",
+    "Language": "EN",
+    "CountryName": "Italy",
+    "CountryThreeLetterISOCode": "ITA",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "JM",
+    "Language": "EN",
+    "CountryName": "Jamaica",
+    "CountryThreeLetterISOCode": "JAM",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "JP",
+    "Language": "EN",
+    "CountryName": "Japan",
+    "CountryThreeLetterISOCode": "JPN",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "JO",
+    "Language": "EN",
+    "CountryName": "Jordan",
+    "CountryThreeLetterISOCode": "JOR",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "KG",
+    "Language": "EN",
+    "CountryName": "Kyrgyzstan",
+    "CountryThreeLetterISOCode": "KGZ",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "KH",
+    "Language": "EN",
+    "CountryName": "Cambodia",
+    "CountryThreeLetterISOCode": "KHM",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "KI",
+    "Language": "EN",
+    "CountryName": "Kiribati",
+    "CountryThreeLetterISOCode": "KIR",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "KP",
+    "Language": "EN",
+    "CountryName": "North Korea",
+    "CountryThreeLetterISOCode": "PRK",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "KN",
+    "Language": "EN",
+    "CountryName": "Saint Kitts and Nevis",
+    "CountryThreeLetterISOCode": "KNA",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "KM",
+    "Language": "EN",
+    "CountryName": "Comoros",
+    "CountryThreeLetterISOCode": "COM",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "KE",
+    "Language": "EN",
+    "CountryName": "Kenya",
+    "CountryThreeLetterISOCode": "KEN",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "KR",
+    "Language": "EN",
+    "CountryName": "South Korea",
+    "CountryThreeLetterISOCode": "KOR",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "KY",
+    "Language": "EN",
+    "CountryName": "Cayman Islands",
+    "CountryThreeLetterISOCode": "CYM",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "KW",
+    "Language": "EN",
+    "CountryName": "Kuwait",
+    "CountryThreeLetterISOCode": "KWT",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "LA",
+    "Language": "EN",
+    "CountryName": "Laos",
+    "CountryThreeLetterISOCode": "LAO",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "KZ",
+    "Language": "EN",
+    "CountryName": "Kazakhstan",
+    "CountryThreeLetterISOCode": "KAZ",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "LB",
+    "Language": "EN",
+    "CountryName": "Lebanon",
+    "CountryThreeLetterISOCode": "LBN",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "LC",
+    "Language": "EN",
+    "CountryName": "St. Lucia",
+    "CountryThreeLetterISOCode": "LCA",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "LK",
+    "Language": "EN",
+    "CountryName": "Sri Lanka",
+    "CountryThreeLetterISOCode": "LKA",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "LI",
+    "Language": "EN",
+    "CountryName": "Liechtenstein",
+    "CountryThreeLetterISOCode": "LIE",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "LR",
+    "Language": "EN",
+    "CountryName": "Liberia",
+    "CountryThreeLetterISOCode": "LBR",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "LV",
+    "Language": "EN",
+    "CountryName": "Latvia",
+    "CountryThreeLetterISOCode": "LVA",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "LT",
+    "Language": "EN",
+    "CountryName": "Lithuania",
+    "CountryThreeLetterISOCode": "LTU",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "LU",
+    "Language": "EN",
+    "CountryName": "Luxembourg",
+    "CountryThreeLetterISOCode": "LUX",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "LS",
+    "Language": "EN",
+    "CountryName": "Lesotho",
+    "CountryThreeLetterISOCode": "LSO",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "MA",
+    "Language": "EN",
+    "CountryName": "Morocco",
+    "CountryThreeLetterISOCode": "MAR",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "LY",
+    "Language": "EN",
+    "CountryName": "Libya",
+    "CountryThreeLetterISOCode": "LBY",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "MD",
+    "Language": "EN",
+    "CountryName": "Moldova",
+    "CountryThreeLetterISOCode": "MDA",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "MC",
+    "Language": "EN",
+    "CountryName": "Monaco",
+    "CountryThreeLetterISOCode": "MCO",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "MF",
+    "Language": "EN",
+    "CountryName": "Saint Martin",
+    "CountryThreeLetterISOCode": "MAF",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "ME",
+    "Language": "EN",
+    "CountryName": "Montenegro",
+    "CountryThreeLetterISOCode": "MNE",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "MG",
+    "Language": "EN",
+    "CountryName": "Madagascar",
+    "CountryThreeLetterISOCode": "MDG",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "ML",
+    "Language": "EN",
+    "CountryName": "Mali",
+    "CountryThreeLetterISOCode": "MLI",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "MK",
+    "Language": "EN",
+    "CountryName": "Macedonia",
+    "CountryThreeLetterISOCode": "MKD",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "MH",
+    "Language": "EN",
+    "CountryName": "Marshall Islands",
+    "CountryThreeLetterISOCode": "MHL",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "MM",
+    "Language": "EN",
+    "CountryName": "Myanmar",
+    "CountryThreeLetterISOCode": "MMR",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "MN",
+    "Language": "EN",
+    "CountryName": "Mongolia",
+    "CountryThreeLetterISOCode": "MNG",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "MP",
+    "Language": "EN",
+    "CountryName": "North Mariana Islands",
+    "CountryThreeLetterISOCode": "MNP",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "MQ",
+    "Language": "EN",
+    "CountryName": "Martinique",
+    "CountryThreeLetterISOCode": "MTQ",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "MR",
+    "Language": "EN",
+    "CountryName": "Mauretania",
+    "CountryThreeLetterISOCode": "MRT",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "MO",
+    "Language": "EN",
+    "CountryName": "Macao",
+    "CountryThreeLetterISOCode": "MAC",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "MV",
+    "Language": "EN",
+    "CountryName": "Maldives",
+    "CountryThreeLetterISOCode": "MDV",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "MS",
+    "Language": "EN",
+    "CountryName": "Montserrat",
+    "CountryThreeLetterISOCode": "MSR",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "MU",
+    "Language": "EN",
+    "CountryName": "Mauritius",
+    "CountryThreeLetterISOCode": "MUS",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "MT",
+    "Language": "EN",
+    "CountryName": "Malta",
+    "CountryThreeLetterISOCode": "MLT",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "MW",
+    "Language": "EN",
+    "CountryName": "Malawi",
+    "CountryThreeLetterISOCode": "MWI",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "MY",
+    "Language": "EN",
+    "CountryName": "Malaysia",
+    "CountryThreeLetterISOCode": "MYS",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "MZ",
+    "Language": "EN",
+    "CountryName": "Mozambique",
+    "CountryThreeLetterISOCode": "MOZ",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "MX",
+    "Language": "EN",
+    "CountryName": "Mexico",
+    "CountryThreeLetterISOCode": "MEX",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "NA",
+    "Language": "EN",
+    "CountryName": "Namibia",
+    "CountryThreeLetterISOCode": "NAM",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "NF",
+    "Language": "EN",
+    "CountryName": "Norfolk Islands",
+    "CountryThreeLetterISOCode": "NFK",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "NE",
+    "Language": "EN",
+    "CountryName": "Niger",
+    "CountryThreeLetterISOCode": "NER",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "NG",
+    "Language": "EN",
+    "CountryName": "Nigeria",
+    "CountryThreeLetterISOCode": "NGA",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "NI",
+    "Language": "EN",
+    "CountryName": "Nicaragua",
+    "CountryThreeLetterISOCode": "NIC",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "NC",
+    "Language": "EN",
+    "CountryName": "New Caledonia",
+    "CountryThreeLetterISOCode": "NCL",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "NP",
+    "Language": "EN",
+    "CountryName": "Nepal",
+    "CountryThreeLetterISOCode": "NPL",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "NL",
+    "Language": "EN",
+    "CountryName": "Netherlands",
+    "CountryThreeLetterISOCode": "NLD",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "NR",
+    "Language": "EN",
+    "CountryName": "Nauru",
+    "CountryThreeLetterISOCode": "NRU",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "NO",
+    "Language": "EN",
+    "CountryName": "Norway",
+    "CountryThreeLetterISOCode": "NOR",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "NU",
+    "Language": "EN",
+    "CountryName": "Niue",
+    "CountryThreeLetterISOCode": "NIU",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "NZ",
+    "Language": "EN",
+    "CountryName": "New Zealand",
+    "CountryThreeLetterISOCode": "NZL",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "PE",
+    "Language": "EN",
+    "CountryName": "Peru",
+    "CountryThreeLetterISOCode": "PER",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "OM",
+    "Language": "EN",
+    "CountryName": "Oman",
+    "CountryThreeLetterISOCode": "OMN",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "PA",
+    "Language": "EN",
+    "CountryName": "Panama",
+    "CountryThreeLetterISOCode": "PAN",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "PF",
+    "Language": "EN",
+    "CountryName": "French Polynesia",
+    "CountryThreeLetterISOCode": "PYF",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "PG",
+    "Language": "EN",
+    "CountryName": "Papua New Guinea",
+    "CountryThreeLetterISOCode": "PNG",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "PL",
+    "Language": "EN",
+    "CountryName": "Poland",
+    "CountryThreeLetterISOCode": "POL",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "PN",
+    "Language": "EN",
+    "CountryName": "Pitcairn Islands",
+    "CountryThreeLetterISOCode": "PCN",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "PK",
+    "Language": "EN",
+    "CountryName": "Pakistan",
+    "CountryThreeLetterISOCode": "PAK",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "PH",
+    "Language": "EN",
+    "CountryName": "Philippines",
+    "CountryThreeLetterISOCode": "PHL",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "PM",
+    "Language": "EN",
+    "CountryName": "St. Pierre and Miquelon",
+    "CountryThreeLetterISOCode": "SPM",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "PS",
+    "Language": "EN",
+    "CountryName": "State of Palestine",
+    "CountryThreeLetterISOCode": "PSE",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "PW",
+    "Language": "EN",
+    "CountryName": "Palau",
+    "CountryThreeLetterISOCode": "PLW",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "PR",
+    "Language": "EN",
+    "CountryName": "Puerto Rico",
+    "CountryThreeLetterISOCode": "PRI",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "PT",
+    "Language": "EN",
+    "CountryName": "Portugal",
+    "CountryThreeLetterISOCode": "PRT",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "PY",
+    "Language": "EN",
+    "CountryName": "Paraguay",
+    "CountryThreeLetterISOCode": "PRY",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "RE",
+    "Language": "EN",
+    "CountryName": "Reunion",
+    "CountryThreeLetterISOCode": "REU",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "RO",
+    "Language": "EN",
+    "CountryName": "Romania",
+    "CountryThreeLetterISOCode": "ROU",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "RU",
+    "Language": "EN",
+    "CountryName": "Russian Federation",
+    "CountryThreeLetterISOCode": "RUS",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "RW",
+    "Language": "EN",
+    "CountryName": "Rwanda",
+    "CountryThreeLetterISOCode": "RWA",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "SB",
+    "Language": "EN",
+    "CountryName": "Solomon Islands",
+    "CountryThreeLetterISOCode": "SLB",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "RS",
+    "Language": "EN",
+    "CountryName": "Serbia",
+    "CountryThreeLetterISOCode": "SRB",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "SC",
+    "Language": "EN",
+    "CountryName": "Seychelles",
+    "CountryThreeLetterISOCode": "SYC",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "SD",
+    "Language": "EN",
+    "CountryName": "Sudan",
+    "CountryThreeLetterISOCode": "SDN",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "SE",
+    "Language": "EN",
+    "CountryName": "Sweden",
+    "CountryThreeLetterISOCode": "SWE",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "SH",
+    "Language": "EN",
+    "CountryName": "Saint Helena",
+    "CountryThreeLetterISOCode": "SHN",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "SI",
+    "Language": "EN",
+    "CountryName": "Slovenia",
+    "CountryThreeLetterISOCode": "SVN",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "SG",
+    "Language": "EN",
+    "CountryName": "Singapore",
+    "CountryThreeLetterISOCode": "SGP",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "SJ",
+    "Language": "EN",
+    "CountryName": "Svalbard",
+    "CountryThreeLetterISOCode": "SJM",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "SL",
+    "Language": "EN",
+    "CountryName": "Sierra Leone",
+    "CountryThreeLetterISOCode": "SLE",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "SK",
+    "Language": "EN",
+    "CountryName": "Slovakia",
+    "CountryThreeLetterISOCode": "SVK",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "SM",
+    "Language": "EN",
+    "CountryName": "San Marino",
+    "CountryThreeLetterISOCode": "SMR",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "SO",
+    "Language": "EN",
+    "CountryName": "Somalia",
+    "CountryThreeLetterISOCode": "SOM",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "ST",
+    "Language": "EN",
+    "CountryName": "Sao Tome and Principe",
+    "CountryThreeLetterISOCode": "STP",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "SS",
+    "Language": "EN",
+    "CountryName": "Republic of South Sudan",
+    "CountryThreeLetterISOCode": "SSD",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "SN",
+    "Language": "EN",
+    "CountryName": "Senegal",
+    "CountryThreeLetterISOCode": "SEN",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "SR",
+    "Language": "EN",
+    "CountryName": "Suriname",
+    "CountryThreeLetterISOCode": "SUR",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "SV",
+    "Language": "EN",
+    "CountryName": "El Salvador",
+    "CountryThreeLetterISOCode": "SLV",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "SX",
+    "Language": "EN",
+    "CountryName": "Sint Maarten (Dutch part)",
+    "CountryThreeLetterISOCode": "SXM",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "TD",
+    "Language": "EN",
+    "CountryName": "Chad",
+    "CountryThreeLetterISOCode": "TCD",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "SZ",
+    "Language": "EN",
+    "CountryName": "Swaziland",
+    "CountryThreeLetterISOCode": "SWZ",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "SY",
+    "Language": "EN",
+    "CountryName": "Syria",
+    "CountryThreeLetterISOCode": "SYR",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "TF",
+    "Language": "EN",
+    "CountryName": "French Southern Territories",
+    "CountryThreeLetterISOCode": "ATF",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "TC",
+    "Language": "EN",
+    "CountryName": "Turks and Caicos Islands",
+    "CountryThreeLetterISOCode": "TCA",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "TG",
+    "Language": "EN",
+    "CountryName": "Togo",
+    "CountryThreeLetterISOCode": "TGO",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "TH",
+    "Language": "EN",
+    "CountryName": "Thailand",
+    "CountryThreeLetterISOCode": "THA",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "TL",
+    "Language": "EN",
+    "CountryName": "Timor-Leste",
+    "CountryThreeLetterISOCode": "TLS",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "TJ",
+    "Language": "EN",
+    "CountryName": "Tajikistan",
+    "CountryThreeLetterISOCode": "TJK",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "TK",
+    "Language": "EN",
+    "CountryName": "Tokelau Islands",
+    "CountryThreeLetterISOCode": "TKL",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "TM",
+    "Language": "EN",
+    "CountryName": "Turkmenistan",
+    "CountryThreeLetterISOCode": "TKM",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "TN",
+    "Language": "EN",
+    "CountryName": "Tunisia",
+    "CountryThreeLetterISOCode": "TUN",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "TR",
+    "Language": "EN",
+    "CountryName": "Turkey",
+    "CountryThreeLetterISOCode": "TUR",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "TT",
+    "Language": "EN",
+    "CountryName": "Trinidad and Tobago",
+    "CountryThreeLetterISOCode": "TTO",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "TO",
+    "Language": "EN",
+    "CountryName": "Tonga",
+    "CountryThreeLetterISOCode": "TON",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "TZ",
+    "Language": "EN",
+    "CountryName": "Tanzania",
+    "CountryThreeLetterISOCode": "TZA",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "TW",
+    "Language": "EN",
+    "CountryName": "Taiwan",
+    "CountryThreeLetterISOCode": "TWN",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "TV",
+    "Language": "EN",
+    "CountryName": "Tuvalu",
+    "CountryThreeLetterISOCode": "TUV",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "UA",
+    "Language": "EN",
+    "CountryName": "Ukraine",
+    "CountryThreeLetterISOCode": "UKR",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "UM",
+    "Language": "EN",
+    "CountryName": "American Minor Outlying Islands",
+    "CountryThreeLetterISOCode": "UMI",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "UG",
+    "Language": "EN",
+    "CountryName": "Uganda",
+    "CountryThreeLetterISOCode": "UGA",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "UY",
+    "Language": "EN",
+    "CountryName": "Uruguay",
+    "CountryThreeLetterISOCode": "URY",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "UZ",
+    "Language": "EN",
+    "CountryName": "Uzbekistan",
+    "CountryThreeLetterISOCode": "UZB",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "VA",
+    "Language": "EN",
+    "CountryName": "Vatican City",
+    "CountryThreeLetterISOCode": "VAT",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "VC",
+    "Language": "EN",
+    "CountryName": "St. Vincent and the Grenadines",
+    "CountryThreeLetterISOCode": "VCT",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "VE",
+    "Language": "EN",
+    "CountryName": "Venezuela",
+    "CountryThreeLetterISOCode": "VEN",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "VG",
+    "Language": "EN",
+    "CountryName": "British Virgin Islands",
+    "CountryThreeLetterISOCode": "VGB",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "VN",
+    "Language": "EN",
+    "CountryName": "Vietnam",
+    "CountryThreeLetterISOCode": "VNM",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "VI",
+    "Language": "EN",
+    "CountryName": "American Virgin Islands",
+    "CountryThreeLetterISOCode": "VIR",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "WS",
+    "Language": "EN",
+    "CountryName": "Samoa",
+    "CountryThreeLetterISOCode": "WSM",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "VU",
+    "Language": "EN",
+    "CountryName": "Vanuatu",
+    "CountryThreeLetterISOCode": "VUT",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "WF",
+    "Language": "EN",
+    "CountryName": "Wallis and Futuna Islands",
+    "CountryThreeLetterISOCode": "WLF",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "YE",
+    "Language": "EN",
+    "CountryName": "Yemen",
+    "CountryThreeLetterISOCode": "YEM",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "YT",
+    "Language": "EN",
+    "CountryName": "Mayotte",
+    "CountryThreeLetterISOCode": "MYT",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "ZM",
+    "Language": "EN",
+    "CountryName": "Zambia",
+    "CountryThreeLetterISOCode": "ZMB",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "ZA",
+    "Language": "EN",
+    "CountryName": "South Africa",
+    "CountryThreeLetterISOCode": "ZAF",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "ZW",
+    "Language": "EN",
+    "CountryName": "Zimbabwe",
+    "CountryThreeLetterISOCode": "ZWE",
+    "LanguageISOCode": "EN"
+  },
+  {
+    "Country": "SA",
+    "Language": "EN",
+    "CountryName": "Saudi Arabia",
+    "CountryThreeLetterISOCode": "SAU",
+    "LanguageISOCode": "EN"
+  }
+]

@@ -1,0 +1,11 @@
+<mvc:View
+
+        xmlns:mvc="sap.ui.core.mvc"
+        xmlns="sap.m">
+    <Page>
+        <Panel class="sapUiMediumMargin">
+            <Text class="sapUiSmallMargin"
+                  text="Sorry, a technical error occurred! Please try again later.\nIf the error persist, please contact your SAP representative."/>
+        </Panel>
+    </Page>
+</mvc:View>

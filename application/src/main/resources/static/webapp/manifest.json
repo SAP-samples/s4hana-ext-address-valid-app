@@ -1,0 +1,93 @@
+{
+  "_version": "1.8.0",
+  "sap.app": {
+	"id": "sap.enterpriseEventing.ui",
+	"type": "application",
+	"title": "Address Validation",
+	"description": "Address Validation application",
+	"applicationVersion": {
+	  "version": "1.0.0"
+	}
+  },
+  "sap.ui": {
+	"technology": "UI5",
+	"deviceTypes": {
+		"desktop": true,
+		"tablet": true,
+		"phone": true
+	}
+  },
+  "sap.ui5": {
+	"rootView": {
+		"viewName": "sap.enterpriseEventing.ui.view.App",
+		"type": "XML",
+		"async": true,
+		"id": "app"
+	},
+	"dependencies": {
+	  "minUI5Version": "1.30",
+	  "libs": {
+		"sap.m": {}
+	  }
+	},
+	"models": {
+		
+	},
+	"routing": {
+		"config": {
+			"routerClass": "sap.m.routing.Router",
+			"viewType": "XML",
+			"viewPath": "sap.enterpriseEventing.ui.view",
+			"controlId": "app",
+			"controlAggregation": "pages",
+			"bypassed": {
+				"target": [
+					"app"
+				]
+			},
+			"async": true
+		},
+		"routes": [
+			{
+				"pattern": "confirmAddress/{token}",
+				"name": "confirmAddress",
+				"target": [
+					"displayAddress"
+				]
+			},
+			{
+				"pattern": "edit",
+				"name": "editAddress",
+				"target": [
+					"editAddress"
+				]
+			}
+		],
+		"targets": {
+			"app": {
+				"viewName": "App",
+				"viewId": "enterpriseEventingAddressValidationApp",
+				"controlAggregation": "pages"
+			},
+			"displayAddress": {
+				"viewName": "DisplayAddress",
+				"viewId": "displayAddress",
+				"controlAggregation": "pages"
+			},
+			"editAddress": {
+				"viewName": "EditAddress",
+				"viewId": "editAddress",
+				"controlAggregation": "pages"
+			},
+			"technicalError": {
+				"viewName": "TechnicalError",
+				"viewId": "technicalError",
+				"controlAggregation": "pages"
+			}
+		}
+	}
+	
+	
+	
+  }
+}

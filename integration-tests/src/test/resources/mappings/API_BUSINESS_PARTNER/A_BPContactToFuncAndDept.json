@@ -1,0 +1,56 @@
+{
+	"request": {
+		"method": "GET",
+		"urlPattern": "/sap/opu/odata/sap/API_BUSINESS_PARTNER/A_BPContactToFuncAndDept(.*)\\$filter=BusinessPartnerCompany%20eq%20'1000090'(.*)"
+	},
+	"response": {
+		"status": 200,
+		"jsonBody": {
+		    "d": {
+		        "results": [
+		            {
+		                "__metadata": {
+		                    "id": "https://myXXXXXX-api.s4hana.ondemand.com/sap/opu/odata/sap/API_BUSINESS_PARTNER/A_BPContactToFuncAndDept(RelationshipNumber='1',BusinessPartnerCompany='10100001',BusinessPartnerPerson='10910005',ValidityEndDate=datetime'9999-12-31T00%3A00%3A00')",
+		                    "uri": "https://myXXXXXX-api.s4hana.ondemand.com/sap/opu/odata/sap/API_BUSINESS_PARTNER/A_BPContactToFuncAndDept(RelationshipNumber='1',BusinessPartnerCompany='10100001',BusinessPartnerPerson='10910005',ValidityEndDate=datetime'9999-12-31T00%3A00%3A00')",
+		                    "type": "API_BUSINESS_PARTNER.A_BPContactToFuncAndDeptType"
+		                },
+		                "RelationshipNumber": "1",
+		                "BusinessPartnerCompany": "1000090",
+		                "BusinessPartnerPerson": "10910005",
+		                "ValidityEndDate": "/Date(253402214400000)/",
+		                "ContactPersonFunction": "0005",
+		                "ContactPersonDepartment": "0007",
+		                "PhoneNumber": "09990 4513",
+		                "PhoneNumberExtension": "12",
+		                "FaxNumber": "",
+		                "FaxNumberExtension": "",
+		                "EmailAddress": "contact.person1@example.com",
+		                "RelationshipCategory": "BUR001"
+		            },
+		            {
+		                "__metadata": {
+		                    "id": "https://myXXXXXX-api.s4hana.ondemand.com/sap/opu/odata/sap/API_BUSINESS_PARTNER/A_BPContactToFuncAndDept(RelationshipNumber='1',BusinessPartnerCompany='10100001',BusinessPartnerPerson='10910006',ValidityEndDate=datetime'9999-12-31T00%3A00%3A00')",
+		                    "uri": "https://myXXXXXX-api.s4hana.ondemand.com/sap/opu/odata/sap/API_BUSINESS_PARTNER/A_BPContactToFuncAndDept(RelationshipNumber='1',BusinessPartnerCompany='10100001',BusinessPartnerPerson='10910006',ValidityEndDate=datetime'9999-12-31T00%3A00%3A00')",
+		                    "type": "API_BUSINESS_PARTNER.A_BPContactToFuncAndDeptType"
+		                },
+		                "RelationshipNumber": "1",
+		                "BusinessPartnerCompany": "1000090",
+		                "BusinessPartnerPerson": "10910006",
+		                "ValidityEndDate": "/Date(253402214400000)/",
+		                "ContactPersonFunction": "0002",
+		                "ContactPersonDepartment": "0002",
+		                "PhoneNumber": "09990 4513",
+		                "PhoneNumberExtension": "32",
+		                "FaxNumber": "",
+		                "FaxNumberExtension": "",
+		                "EmailAddress": "contact.person2@example.com",
+		                "RelationshipCategory": "BUR001"
+		            }
+		        ]
+		    }
+		},
+		"headers": {
+			"Content-Type": "application/json"
+		}
+	}
+}

@@ -1,0 +1,56 @@
+{
+	"request": {
+		"method": "GET",
+		"urlPattern": "/sap/opu/odata/sap/API_BUSINESS_PARTNER/A_BusinessPartnerAddress(.*)37384(.*)"
+	},
+	"response": {
+		"status": 200,
+		"jsonBody": {
+			"d": {
+				"AddressID": "37384",
+				"BusinessPartner": "1000090",
+				"Person": "0123456789",
+				"StreetName": "Very long street name who knows how long could they be",
+				"HouseNumber": "7 corp. 8A",
+				"HouseNumberSupplementText": "10ChrsOnly",
+				"CityCode": "1234567-CBLR",
+				"CityName": "Chateaubelair",
+				"County": "Chateaubelair County",
+				"Country": "DE",
+				"Language": "DE",
+				"ValidityStartDate": "2018-03-07T02:55:16Z",
+				"ValidityEndDate": "2018-03-07T02:55:16Z",
+				"AuthorizationGroup": "1234",
+				"AdditionalStreetPrefixName": "additionalStreetPrefixName",
+				"AdditionalStreetSuffixName": "additionalStreetSuffixName",
+				"AddressTimeZone": "UTC+06",
+				"CareOfName": "careOfName",
+				"CompanyPostalCode": "0123456789",
+				"DeliveryServiceNumber": "0123456789",
+				"DeliveryServiceTypeCode": "1234",
+				"District": "district",
+				"FormOfAddress": "1234",
+				"FullName": "fullName",
+				"HomeCityName": "homeCityName",
+				"POBox": "pOBox",
+				"POBoxDeviatingCityName": "pOBoxDeviatingCityName",
+				"POBoxDeviatingCountry": "123",
+				"POBoxDeviatingRegion": "123",
+				"POBoxIsWithoutNumber": true,
+				"POBoxLobbyName": "pOBoxLobbyName",
+				"POBoxPostalCode": "postalCode",
+				"PostalCode": "postalCode",
+				"PrfrdCommMediumType": "pmt",
+				"Region": "rgn",
+				"StreetPrefixName": "streetPrefixName",
+				"StreetSuffixName": "streetSuffixName",
+				"TaxJurisdiction": "taxJurisdiction",
+				"TransportZone": "trnsptZone",
+				"AddressIDByExternalSystem": "addressIDByExtSys"
+			}
+		},
+		"headers": {
+			"Content-Type": "application/json"
+		}
+	}
+}

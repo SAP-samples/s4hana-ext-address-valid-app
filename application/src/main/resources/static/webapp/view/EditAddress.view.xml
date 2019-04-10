@@ -1,0 +1,85 @@
+<mvc:View
+        height="100%"
+        controllerName="sap.enterpriseEventing.ui.controller.EditAddress"
+        xmlns:mvc="sap.ui.core.mvc"
+        xmlns="sap.m"
+        xmlns:l="sap.ui.layout"
+        xmlns:f="sap.ui.layout.form"
+        xmlns:core="sap.ui.core">
+    <Page id="displayAddress" showHeader="false" busy="{addressView>/busy}"
+          busyIndicatorDelay="{addressView>/delay}">
+
+        <VBox class="sapUiSmallMargin">
+            <f:Form id="changeAddressForm"
+                    editable="true">
+                <f:title>
+                    <core:Title text="Address"/>
+                </f:title>
+                <f:layout>
+                    <f:ResponsiveGridLayout
+                            labelSpanXL="3"
+                            labelSpanL="3"
+                            labelSpanM="3"
+                            labelSpanS="12"
+                            adjustLabelSpan="false"
+                            emptySpanXL="4"
+                            emptySpanL="4"
+                            emptySpanM="4"
+                            emptySpanS="0"
+                            columnsXL="1"
+                            columnsL="1"
+                            columnsM="1"
+                            singleContainerFullSize="false"/>
+                </f:layout>
+                <f:formContainers>
+                    <f:FormContainer>
+                        <f:formElements>
+                            <f:FormElement label="Name">
+                                <f:fields>
+                                    <Text text="{/fullName}" id="nameText"/>
+                                </f:fields>
+                            </f:FormElement>
+                            <f:FormElement label="Street">
+                                <f:fields>
+                                    <Input value="{/streetName}" liveChange="onFieldChange"/>
+                                    <Input value="{/houseNumber}" liveChange="onFieldChange">
+                                        <layoutData>
+                                            <l:GridData span="XL1 L2 M2 S4"/>
+                                        </layoutData>
+                                    </Input>
+                                </f:fields>
+                            </f:FormElement>
+                            <f:FormElement label="ZIP Code/City">
+                                <f:fields>
+                                    <Input value="{/postalCode}" liveChange="onFieldChange">
+                                        <layoutData>
+                                            <l:GridData span="XL1 L2 M2 S4"/>
+                                        </layoutData>
+                                    </Input>
+                                    <Input value="{/cityName}" liveChange="onFieldChange"/>
+                                </f:fields>
+                            </f:FormElement>
+                            <f:FormElement label="Country">
+                                <f:fields>
+                                    <Input value="{viewModel>/countryName}" valueHelpOnly="true"
+                                           showValueHelp="true" valueHelpRequest="onValueHelpRequest"/>
+                                </f:fields>
+                            </f:FormElement>
+                        </f:formElements>
+                    </f:FormContainer>
+                </f:formContainers>
+            </f:Form>
+        </VBox>
+
+        <footer>
+            <Bar>
+                <contentRight>
+                    <Button id="cancelButton" text="Cancel" press="onCancelPress"/>
+                </contentRight>
+                <contentRight>
+                    <Button id="approveButton" text="Approve" press="onApprovePress"/>
+                </contentRight>
+            </Bar>
+        </footer>
+    </Page>
+</mvc:View>

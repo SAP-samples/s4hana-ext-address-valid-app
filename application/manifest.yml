@@ -1,0 +1,66 @@
+---
+applications:
+
+- name: Eventing
+  memory: 2G
+  timeout: 300
+  routes:
+  - route: my-eventing-app.cfapps.<place_your_region_here>.hana.ondemand.com
+  path: target/S4HANA-Eventing-application.war
+  buildpacks:
+    - sap_java_buildpack
+  env:
+    TARGET_RUNTIME: tomcat
+    JBP_CONFIG_SAPJVM_MEMORY_SIZES: 'metaspace:128m..'
+    SAP_XBEM_BINDINGS: >
+        {
+            "inputs": {
+                "BusinessPartnerQueue": {
+                    "service": "messaging",
+                    "address": "queue:BusinessPartnerQueue",
+                    "reliable": true,
+                    "maxMsgInFlight": 2000
+                }
+            }, 
+            "outputs": {} 
+        }
+      
+    SPRING_PROFILES_ACTIVE: 'cloud'
+
+    # below you can optionally override application config parameters defined in the 'src/main/resources/application.properties' file
+    SPRING_APPLICATION_JSON: >
+        {
+            "eventing": {
+                "queue": "queue:BusinessPartnerQueue"
+            },
+            "s4hana": {
+                "destination": "ErpQueryEndpoint",
+                "countryService": {
+                    "odataServicePath": "/sap/opu/odata/sap/YY1_COUNTRIES_CDS",
+                    "odataEntitySetName": "YY1_COUNTRIES"
+                },
+                "contactPerson": {
+                    "preferredFunction": "0005",
+                    "preferredDepartment": "0007"
+                }
+            },
+            "addressConfirmation": {
+                "destination": "MailSession",
+                "url": "https://<place_your_route_here>/#/confirmAddress/%s"
+            },
+            "security": {
+                "rsaCipher": {
+                    "destination": "RSAKeyPairStorage"
+                },
+                "token": {
+                    "numberOfDaysValid": 4
+                }
+            }
+        }
+    
+  services:
+   - destination
+   - messaging
+   - xsuaa
+   # please create an instance of application-logs service if you want to use logging
+   # - application-logging

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <name>S4HANA-Eventing - Application</name>
+    <description>S4HANA-Eventing - Application</description>
+
+    <artifactId>S4HANA-Eventing-application</artifactId>
+    
+    <packaging>war</packaging>
+    
+    <parent>
+        <groupId>com.sap.cloud.s4hana</groupId>
+        <artifactId>S4HANA-Eventing</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    
+    <properties>
+    	 <!-- Required for SCP user session management and audit logging. -->
+        <scp.warImportPackage>com.sap.security.auth.service,com.sap.security.um.service.api,com.sap.core.service.auditlog.impl,com.sap.cloud.auditlog,com.sap.cloud.auditlog.exception,com.sap.cloud.auditlog.extension</scp.warImportPackage>
+    </properties>
+
+    <dependencies>
+        <!-- SAP S/4HANA Cloud SDK dependencies -->
+        <dependency>
+            <groupId>com.sap.cloud.s4hana.cloudplatform</groupId>
+            <artifactId>scp-cf</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.sap.cloud.s4hana</groupId>
+            <artifactId>s4hana-all</artifactId>
+        </dependency>
+		<dependency>
+			<groupId>com.sap.cloud.s4hana</groupId>
+			<artifactId>signing</artifactId>
+		</dependency>
+		
+		<!-- Logging dependencies on Cloud Foundry -->
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-api</artifactId>
+			<scope>provided</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>jcl-over-slf4j</artifactId>
+			<scope>runtime</scope>
+		</dependency>
+		<dependency>
+			<groupId>ch.qos.logback</groupId>
+			<artifactId>logback-classic</artifactId>
+			<scope>provided</scope>
+		</dependency> 
+
+        <!-- Spring dependencies -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter</artifactId>
+            <exclusions>
+            	<exclusion>
+            		<groupId>ch.qos.logback</groupId>
+            		<artifactId>logback-classic</artifactId>
+            	</exclusion>
+            </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-webmvc</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-actuator</artifactId>
+        </dependency>
+        <dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-activemq</artifactId>
+		</dependency>
+		
+		<!-- enables method invocation interception using Aspect-oriented Programming paradigm (AOP) -->
+		<dependency>
+	        <groupId>org.springframework.boot</groupId>
+	        <artifactId>spring-boot-starter-aop</artifactId>
+	    </dependency>
+        
+        <!-- enables war deployment of Spring boot app -->
+    	<dependency>
+		   <groupId>org.springframework.boot</groupId>
+		   <artifactId>spring-boot-starter-tomcat</artifactId>
+		</dependency>        
+        
+        <!-- SAP Enterprise Messaging Service libraries -->
+		<dependency>
+			<groupId>com.sap.cloud.servicesdk.xbem</groupId>
+			<artifactId>emjapi-api</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.sap.cloud.servicesdk.xbem</groupId>
+			<artifactId>emjapi-connector-sap-cp</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.sap.cloud.servicesdk.xbem</groupId>
+			<artifactId>emjapi-extension-sap-cp-jms</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.sap.cloud.servicesdk.xbem</groupId>
+			<artifactId>emjapi-adapter-amqp10</artifactId>
+		</dependency>
+	
+		<!-- enables Java Bean Validation -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-validation</artifactId>
+		</dependency>
+	    
+	    <!-- API to send emails from SAP Cloud Platform using Destinations -->
+		<dependency>
+		    <groupId>javax.mail</groupId>
+		    <artifactId>javax.mail-api</artifactId>
+		</dependency>
+		
+		<!-- JavaMail API implementation -->
+		<dependency>
+		    <groupId>com.sun.mail</groupId>
+		    <artifactId>javax.mail</artifactId>
+		</dependency>
+		
+		<!-- Compose emails using templates -->
+		<dependency>
+		    <groupId>org.freemarker</groupId>
+		    <artifactId>freemarker</artifactId>
+		</dependency>
+		
+		<!-- Copy all fields between entities of different types and create DTOs -->
+		<dependency>
+		    <groupId>org.modelmapper</groupId>
+		    <artifactId>modelmapper</artifactId>
+		    <version>2.3.2</version>
+		</dependency>
+		
+    </dependencies>
+    
+    <build>
+        <finalName>${project.artifactId}</finalName>
+
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+				<version>${spring-boot.version}</version>
+				<configuration>
+					<attach>false</attach>
+				</configuration>
+				<executions>
+					<execution>
+						<goals>
+							<goal>repackage</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
+    </build>
+    
+</project>

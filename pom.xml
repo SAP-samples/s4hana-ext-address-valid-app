@@ -1,0 +1,178 @@
+<?xml version='1.0' encoding='utf-8'?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <name>S4HANA-Eventing - Root</name>
+    <description>S4HANA-Eventing - Root</description>
+
+    <groupId>com.sap.cloud.s4hana</groupId>
+    <artifactId>S4HANA-Eventing</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <properties>
+    	<spring-boot.version>2.1.3.RELEASE</spring-boot.version>
+    	<s4hana.sdk.version>2.11.1</s4hana.sdk.version>
+    
+        <java.version>1.8</java.version>
+        
+        <maven.compiler.source>${java.version}</maven.compiler.source>
+        <maven.compiler.target>${java.version}</maven.compiler.target>
+        <maven.compiler.testSource>${java.version}</maven.compiler.testSource>
+        <maven.compiler.testTarget>${java.version}</maven.compiler.testTarget>
+
+        <project.build.resourceEncoding>UTF-8</project.build.resourceEncoding>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+
+        <jacoco.version>0.8.0</jacoco.version>
+        <maven.license.version>1.16</maven.license.version>
+        
+        <emjapi-api.version>1.9.0</emjapi-api.version>
+    </properties>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-dependencies</artifactId>
+                <version>${spring-boot.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+                        
+			<!-- SAP S/4HANA Cloud SDK Bill of Materials -->
+            <dependency>
+                <groupId>com.sap.cloud.s4hana</groupId>
+                <artifactId>sdk-bom</artifactId>
+                <version>${s4hana.sdk.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            
+            <!-- Security libraries including Java cryptography APIs -->
+            <dependency>
+			    <groupId>com.sap.cloud.s4hana</groupId>
+			    <artifactId>signing</artifactId>
+			    <version>1.11.1</version>
+			</dependency>
+
+			<!-- SAP Enterprise Messaging Service libraries -->            
+            <dependency>
+				<groupId>com.sap.cloud.servicesdk.xbem</groupId>
+				<artifactId>emjapi-api</artifactId>
+				<version>${emjapi-api.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>com.sap.cloud.servicesdk.xbem</groupId>
+				<artifactId>emjapi-connector-sap-cp</artifactId>
+				<version>${emjapi-api.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>com.sap.cloud.servicesdk.xbem</groupId>
+				<artifactId>emjapi-extension-sap-cp-jms</artifactId>
+				<version>${emjapi-api.version}</version>
+			</dependency>
+			<dependency>
+				<groupId>com.sap.cloud.servicesdk.xbem</groupId>
+				<artifactId>emjapi-adapter-amqp10</artifactId>
+				<version>${emjapi-api.version}</version>
+			</dependency>
+			
+        </dependencies>
+    </dependencyManagement>
+
+    <modules>
+        <module>application</module>
+        <module>unit-tests</module>
+        <module>integration-tests</module>
+        <!-- generate a combined test coverage report for both unit and integration tests -->
+        <module>jacoco-report-aggregate</module>
+    </modules>
+    
+    <build>
+        <plugins>
+        	<plugin>
+	            <groupId>org.apache.maven.plugins</groupId>
+	            <artifactId>maven-war-plugin</artifactId>
+	            <version>3.2.2</version>
+	            <configuration>
+	                <failOnMissingWebXml>false</failOnMissingWebXml>
+	                <!-- publish compiled classes to the local maven repository to be consumed by unit and integration tests modules -->
+                    <attachClasses>true</attachClasses>
+	            </configuration>
+	        </plugin>
+	        
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-enforcer-plugin</artifactId>
+                <version>3.0.0-M2</version>
+                <executions>
+                    <execution>
+                        <id>SAP S/4HANA Cloud SDK Project Structure Checks</id>
+                        <goals>
+                            <goal>enforce</goal>
+                        </goals>
+                        <configuration>
+                            <rules>
+                                <requireMavenVersion>
+                                    <version>3.3.9</version>
+                                </requireMavenVersion>
+                                <requireJavaVersion>
+                                    <version>${java.version}</version>
+                                </requireJavaVersion>
+                                <reactorModuleConvergence />
+                            </rules>
+                            <fail>true</fail>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+            
+            <!-- generate license files -->
+			<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>license-maven-plugin</artifactId>
+				<version>${maven.license.version}</version>
+				<inherited>false</inherited> <!-- do not execute on children modules -->
+				<configuration>
+					<!-- CREDITS file settings -->
+					<outputDirectory>.</outputDirectory>
+					<thirdPartyFilename>CREDITS</thirdPartyFilename>
+					<fileTemplate>./application/src/main/build/third-party-file.ftl</fileTemplate>
+					<sortArtifactByName>true</sortArtifactByName>
+					<excludeTransitiveDependencies>true</excludeTransitiveDependencies>
+					<includeTransitiveDependencies>false</includeTransitiveDependencies>
+				</configuration>
+				<executions>	
+					<!-- NOTICE file -->						
+					<execution>
+						<id>update-notice</id>
+						<goals>
+							<goal>update-project-license</goal>
+						</goals>
+						<configuration>
+							<force>true</force>
+							<licenseResolver>${project.baseUri}/application/src/main/build</licenseResolver>
+							<licenseFile>NOTICE</licenseFile>
+							<licenseName>notice</licenseName>
+							<inceptionYear>2019</inceptionYear>
+							<organizationName>SAP SE or an SAP affiliate company</organizationName>
+						</configuration>
+					</execution>
+					
+					<!-- CREDITS file is not generated automatically
+					call "mvn clean install license:aggregate-add-third-party" to generate it -->
+					<execution>
+						<id>aggregate-add-third-party</id>
+						<phase>none</phase>
+						<goals>
+							<goal>aggregate-add-third-party</goal>
+						</goals>
+					</execution>					
+				</executions>
+			</plugin>
+        </plugins>
+    </build>
+</project>

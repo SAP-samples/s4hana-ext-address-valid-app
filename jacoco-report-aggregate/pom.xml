@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+
+    <name>S4HANA-Eventing - Aggregated JaCoCo report</name>
+    <description>S4HANA-Eventing - Aggregated JaCoCo report</description>
+
+    <artifactId>S4HANA-Eventing-jacoco-report-aggregate</artifactId>
+    
+    <packaging>pom</packaging>
+    
+    <parent>
+        <groupId>com.sap.cloud.s4hana</groupId>
+        <artifactId>S4HANA-Eventing</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    
+    <!-- application classes are needed to create the coverage report under "target\site\jacoco-aggregate" -->
+    <dependencies>
+    	<dependency>
+            <groupId>com.sap.cloud.s4hana</groupId>
+            <artifactId>S4HANA-Eventing-application</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <classifier>classes</classifier>
+        </dependency>
+    </dependencies>
+
+    <properties>
+        <jacoco.outputDirectory>${project.reporting.outputDirectory}</jacoco.outputDirectory>
+    </properties>
+    
+    <build>
+        <plugins>
+        	<!-- meaasure test coverage -->
+        	<plugin>
+				<groupId>org.jacoco</groupId>
+				<artifactId>jacoco-maven-plugin</artifactId>
+				<version>${jacoco.version}</version>
+				<executions>
+					<!-- merge runtime traces of unit tests and integration tests execution to get combined coverage report -->
+					<execution>
+						<id>merge-results</id>
+						<phase>process-resources</phase>
+						<goals>
+							<goal>merge</goal>
+						</goals>
+						<configuration>
+							<fileSets>
+								<fileSet>
+									<directory>${project.parent.basedir}/integration-tests/coverage-reports</directory>
+									<includes>
+										<include>*.exec</include>
+									</includes>
+								</fileSet>
+								<fileSet>
+									<directory>${project.parent.basedir}/unit-tests/target/coverage-reports</directory>
+									<includes>
+										<include>*.exec</include>
+									</includes>
+								</fileSet>
+							</fileSets>
+						</configuration>
+					</execution>
+					<!-- bind to verify phase since install phase to which the goal is bound by default is skipped -->
+					<execution>
+						<id>report-aggregate</id>
+						<phase>verify</phase>
+						<goals>
+							<goal>report-aggregate</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+        </plugins>
+    </build>
+</project>

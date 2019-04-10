@@ -1,0 +1,6 @@
+Tutorials:
+Create mail destinations https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/Cloud/en-US/881d6d468f6f4e1ea20620bf9031d904.html
+Examples https://help.sap.com/viewer/cca91383641e40ffbe03bdc78f00f681/Cloud/en-US/4695b89877f148dbadc5200a9cc8cdd4.html
+
+Important notes:
+SSL 465 doesn't work until you enable https://myaccount.google.com/lesssecureapps

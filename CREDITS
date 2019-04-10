@@ -1,0 +1,89 @@
+This program references the following third party open source or other free download components.
+The third party licensors of these components may provide additional license rights,
+terms and conditions and/or require certain notices as described below.
+
+Logback Classic Module (ch.qos.logback:logback-classic:1.2.3 - http://logback.qos.ch/logback-classic)
+Licensed under Eclipse Public License - v 1.0
+Licensed under GNU Lesser General Public License
+
+SAP S/4HANA - All (com.sap.cloud.s4hana:s4hana-all:2.11.1 - https://www.sap.com/s4sdk)
+Licensed under SAP DEVELOPER LICENSE AGREEMENT
+
+S/4HANA - Signing (com.sap.cloud.s4hana:signing:1.11.1 - https://www.sap.com/s4sdk)
+Licensed under SAP DEVELOPER LICENSE AGREEMENT
+
+SAP S/4HANA - Test Utilities (com.sap.cloud.s4hana:testutil:2.11.1 - https://www.sap.com/s4sdk)
+Licensed under SAP DEVELOPER LICENSE AGREEMENT
+
+Cloud Platform - SAP CP Cloud Foundry (com.sap.cloud.s4hana.cloudplatform:scp-cf:2.11.1 - https://www.sap.com/s4sdk)
+Licensed under SAP DEVELOPER LICENSE AGREEMENT
+
+Quality - All Listeners (com.sap.cloud.s4hana.quality:listeners-all:2.11.1 - https://www.sap.com/s4sdk)
+Licensed under SAP DEVELOPER LICENSE AGREEMENT
+
+emjapi: Adapter: AMQP 1.0 (com.sap.cloud.servicesdk.xbem:emjapi-adapter-amqp10:1.9.0 - http://www.sap.com)
+Licensed under SAP DEVELOPER LICENSE AGREEMENT
+
+emjapi: Core API (com.sap.cloud.servicesdk.xbem:emjapi-api:1.9.0 - http://www.sap.com)
+Licensed under SAP DEVELOPER LICENSE AGREEMENT
+
+emjapi: Connector: SAP CP (com.sap.cloud.servicesdk.xbem:emjapi-connector-sap-cp:1.9.0 - http://www.sap.com)
+Licensed under SAP DEVELOPER LICENSE AGREEMENT
+
+emjapi: Extension: SAP CP JMS (com.sap.cloud.servicesdk.xbem:emjapi-extension-sap-cp-jms:1.9.0 - http://www.sap.com)
+Licensed under SAP DEVELOPER LICENSE AGREEMENT
+
+JavaMail API (com.sun.mail:javax.mail:1.6.2 - http://javaee.github.io/javamail/javax.mail)
+Licensed under CDDL/GPLv2+CE
+
+JavaMail API jar (javax.mail:javax.mail-api:1.6.2 - http://javaee.github.io/javamail/javax.mail-api)
+Licensed under CDDL/GPLv2+CE
+
+Apache FreeMarker (org.freemarker:freemarker:2.3.28 - https://freemarker.apache.org/)
+Licensed under Apache License, Version 2.0
+
+Hamcrest All (org.hamcrest:hamcrest-all:1.3 - https://github.com/hamcrest/JavaHamcrest/hamcrest-all)
+Licensed under New BSD License
+
+ModelMapper (org.modelmapper:modelmapper:2.3.2 - http://modelmapper.org/modelmapper)
+Licensed under Apache License, Version 2.0
+
+JCL 1.2 implemented over SLF4J (org.slf4j:jcl-over-slf4j:1.7.25 - http://www.slf4j.org)
+Licensed under MIT License
+
+SLF4J API Module (org.slf4j:slf4j-api:1.7.25 - http://www.slf4j.org)
+Licensed under MIT License
+
+SLF4J Simple Binding (org.slf4j:slf4j-simple:1.7.25 - http://www.slf4j.org)
+Licensed under MIT License
+
+Spring TestContext Framework (org.springframework:spring-test:5.1.5.RELEASE - https://github.com/spring-projects/spring-framework)
+Licensed under Apache License, Version 2.0
+
+Spring Web MVC (org.springframework:spring-webmvc:5.1.5.RELEASE - https://github.com/spring-projects/spring-framework)
+Licensed under Apache License, Version 2.0
+
+Spring Boot Actuator (org.springframework.boot:spring-boot-actuator:2.1.3.RELEASE - https://projects.spring.io/spring-boot/#/spring-boot-parent/spring-boot-actuator)
+Licensed under Apache License, Version 2.0
+
+Spring Boot Starter (org.springframework.boot:spring-boot-starter:2.1.3.RELEASE - https://projects.spring.io/spring-boot/#/spring-boot-parent/spring-boot-starters/spring-boot-starter)
+Licensed under Apache License, Version 2.0
+
+Spring Boot ActiveMQ Starter (org.springframework.boot:spring-boot-starter-activemq:2.1.3.RELEASE - https://projects.spring.io/spring-boot/#/spring-boot-parent/spring-boot-starters/spring-boot-starter-activemq)
+Licensed under Apache License, Version 2.0
+
+Spring Boot AOP Starter (org.springframework.boot:spring-boot-starter-aop:2.1.3.RELEASE - https://projects.spring.io/spring-boot/#/spring-boot-parent/spring-boot-starters/spring-boot-starter-aop)
+Licensed under Apache License, Version 2.0
+
+Spring Boot Tomcat Starter (org.springframework.boot:spring-boot-starter-tomcat:2.1.3.RELEASE - https://projects.spring.io/spring-boot/#/spring-boot-parent/spring-boot-starters/spring-boot-starter-tomcat)
+Licensed under Apache License, Version 2.0
+
+Spring Boot Validation Starter (org.springframework.boot:spring-boot-starter-validation:2.1.3.RELEASE - https://projects.spring.io/spring-boot/#/spring-boot-parent/spring-boot-starters/spring-boot-starter-validation)
+Licensed under Apache License, Version 2.0
+
+Spring Boot Test (org.springframework.boot:spring-boot-test:2.1.3.RELEASE - https://projects.spring.io/spring-boot/#/spring-boot-parent/spring-boot-test)
+Licensed under Apache License, Version 2.0
+
+Spring Boot Test Auto-Configure (org.springframework.boot:spring-boot-test-autoconfigure:2.1.3.RELEASE - https://projects.spring.io/spring-boot/#/spring-boot-parent/spring-boot-test-autoconfigure)
+Licensed under Apache License, Version 2.0
+
