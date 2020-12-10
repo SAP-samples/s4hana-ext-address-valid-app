@@ -1,3 +1,4 @@
+[![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/s4hana-ext-address-valid-app)](https://api.reuse.software/info/github.com/SAP-samples/s4hana-ext-address-valid-app)
 # SAP S/4HANA Cloud Extensions - Collaborative Address Validation Using SAP Enterprise Eventing Services
 This repository contains the sample code for the [Collaborative Address Validation Using SAP Enterprise Eventing Services tutorial](http://tiny.cc/s4-address-valid-app).
 
