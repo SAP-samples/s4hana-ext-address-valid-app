@@ -19,7 +19,7 @@
     </parent>
     
     <properties>
-    	 <!-- Required for SCP user session management and audit logging. -->
+    	 <!-- Required for BTP user session management and audit logging. -->
         <scp.warImportPackage>com.sap.security.auth.service,com.sap.security.um.service.api,com.sap.core.service.auditlog.impl,com.sap.cloud.auditlog,com.sap.cloud.auditlog.exception,com.sap.cloud.auditlog.extension</scp.warImportPackage>
     </properties>
 
@@ -115,7 +115,7 @@
 			<artifactId>spring-boot-starter-validation</artifactId>
 		</dependency>
 	    
-	    <!-- API to send emails from SAP Cloud Platform using Destinations -->
+	    <!-- API to send emails from SAP Business Technology Platform (BTP) using Destinations -->
 		<dependency>
 		    <groupId>javax.mail</groupId>
 		    <artifactId>javax.mail-api</artifactId>

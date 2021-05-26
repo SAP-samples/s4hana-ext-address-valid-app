@@ -30,7 +30,7 @@ public class SessionConfig {
 	private static final Logger log = LoggerFactory.getLogger(SessionConfig.class);
 	
 	/**
-	 * The defulat name of default SAP Cloud Platform destination of type
+	 * The defulat name of default SAP Business Technology Platform (BTP) destination of type
 	 * {@code MAIL}.
 	 */
 	public static final String DEFAULT_MAIL_DESTINATION_NAME = "MailSession";
@@ -42,7 +42,7 @@ public class SessionConfig {
 
 	/**
 	 * @param destinationName
-	 *            The name of SAP Cloud Platform mail destination. If the
+	 *            The name of SAP Business Technology Platform (BTP) mail destination. If the
 	 *            provided value is blank (null or empty even when trimmed),
 	 *            then {@link SessionConfig#DEFAULT_MAIL_DESTINATION_NAME} is
 	 *            used as a default value.
@@ -75,7 +75,7 @@ public class SessionConfig {
 
 	/**
 	 * @param destinationName
-	 *            the name of a mail destination on SAP Cloud Platform
+	 *            the name of a mail destination on SAP Business Technology Platform (BTP)
 	 * @return {@link Session} constructed from destination with specified
 	 *         {@code name}
 	 * @throws SAPMailingException
@@ -109,8 +109,8 @@ public class SessionConfig {
 
 	/**
 	 * @param name
-	 *            the name of a mail destination on SAP Cloud Platform
-	 * @return SAP Cloud Platform mail destination by its name
+	 *            the name of a mail destination on SAP Business Technology Platform (BTP)
+	 * @return SAP Business Technology Platform (BTP) mail destination by its name
 	 * @throws SAPMailingException
 	 *             when destination is not found, cannot be accessed or not of
 	 *             type {@link DestinationType.MAIL}

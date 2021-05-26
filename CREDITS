@@ -15,7 +15,7 @@ Licensed under SAP DEVELOPER LICENSE AGREEMENT
 SAP S/4HANA - Test Utilities (com.sap.cloud.s4hana:testutil:2.11.1 - https://www.sap.com/s4sdk)
 Licensed under SAP DEVELOPER LICENSE AGREEMENT
 
-Cloud Platform - SAP CP Cloud Foundry (com.sap.cloud.s4hana.cloudplatform:scp-cf:2.11.1 - https://www.sap.com/s4sdk)
+Business Technology Platform (BTP) - SAP BTP Cloud Foundry (com.sap.cloud.s4hana.cloudplatform:scp-cf:2.11.1 - https://www.sap.com/s4sdk)
 Licensed under SAP DEVELOPER LICENSE AGREEMENT
 
 Quality - All Listeners (com.sap.cloud.s4hana.quality:listeners-all:2.11.1 - https://www.sap.com/s4sdk)
@@ -27,10 +27,10 @@ Licensed under SAP DEVELOPER LICENSE AGREEMENT
 emjapi: Core API (com.sap.cloud.servicesdk.xbem:emjapi-api:1.9.0 - http://www.sap.com)
 Licensed under SAP DEVELOPER LICENSE AGREEMENT
 
-emjapi: Connector: SAP CP (com.sap.cloud.servicesdk.xbem:emjapi-connector-sap-cp:1.9.0 - http://www.sap.com)
+emjapi: Connector: SAP BTP (com.sap.cloud.servicesdk.xbem:emjapi-connector-sap-cp:1.9.0 - http://www.sap.com)
 Licensed under SAP DEVELOPER LICENSE AGREEMENT
 
-emjapi: Extension: SAP CP JMS (com.sap.cloud.servicesdk.xbem:emjapi-extension-sap-cp-jms:1.9.0 - http://www.sap.com)
+emjapi: Extension: SAP BTP JMS (com.sap.cloud.servicesdk.xbem:emjapi-extension-sap-cp-jms:1.9.0 - http://www.sap.com)
 Licensed under SAP DEVELOPER LICENSE AGREEMENT
 
 JavaMail API (com.sun.mail:javax.mail:1.6.2 - http://javaee.github.io/javamail/javax.mail)

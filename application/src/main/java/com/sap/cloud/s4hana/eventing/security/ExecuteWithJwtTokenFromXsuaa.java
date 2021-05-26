@@ -16,7 +16,7 @@ import com.sap.cloud.sdk.cloudplatform.security.JwtBasedRequestContextExecutor;
  * user request context, when a method is executed e.g.:
  * <ul>
  * <li>during application startup</li>
- * <li>via an event from SAP Cloud Platform Enterprise Messaging Service</li>
+ * <li>via an event from SAP Business Technology Platform (BTP) Enterprise Messaging Service</li>
  * <li>by another service (e.g. Scheduler service)</li>
  * <li>by a user which is not logged in to XSUAA, e.g. when a user executes a
  * request to an unprotected REST endpoint.</li>
