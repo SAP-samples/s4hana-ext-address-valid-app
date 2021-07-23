@@ -31,7 +31,7 @@ public class JmsConfiguration {
 	 * Use {@link String#format(String, Object...)} to replace the {@code %s}
 	 * string parameter with the default remote URI.
 	 * <p>
-	 * In case your application disconnects from the SAP Cloud Platform
+	 * In case your application disconnects from the SAP Business Technology Platform (BTP)
 	 * Enterprise Messaging Service with the
 	 * {@code o.a.q.j.p.failover.FailoverProvider: Failed to connect after: 20 attempt(s)}
 	 * error message, consider increasing {@code failover.maxReconnectAttempts}

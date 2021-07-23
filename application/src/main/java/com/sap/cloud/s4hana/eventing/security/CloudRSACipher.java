@@ -56,7 +56,7 @@ public class CloudRSACipher implements RSACipher {
 	public static final String ALGORITHM = "RSA";
 	
 	/**
-	 * SAP Cloud Platform destination to store RSA key pair
+	 * SAP Business Technology Platform (BTP) destination to store RSA key pair
 	 * 
 	 * @see CloudRSACipher#PRIVATE_KEY_PROPERTY
 	 * @see CloudRSACipher#PUBLIC_KEY_PROPERTY
@@ -64,7 +64,7 @@ public class CloudRSACipher implements RSACipher {
 	public static final String DEFAULT_DESTINATION_NAME = "RSAKeyPairStorage";
 	
 	/**
-	 * SAP Cloud Platform destination property in which the public key is stored
+	 * SAP Business Technology Platform (BTP) destination property in which the public key is stored
 	 *
 	 * @see CloudRSACipher#PRIVATE_KEY_PROPERTY
 	 * @see CloudRSACipher#DEFAULT_DESTINATION_NAME
@@ -72,7 +72,7 @@ public class CloudRSACipher implements RSACipher {
 	public static final String PUBLIC_KEY_PROPERTY = "mail.user";
 	
 	/**
-	 * SAP Cloud Platform destination property in which the private key is stored
+	 * SAP Business Technology Platform (BTP) destination property in which the private key is stored
 	 *
 	 * @see CloudRSACipher#PUBLIC_KEY_PROPERTY
 	 * @see CloudRSACipher#DEFAULT_DESTINATION_NAME
@@ -85,7 +85,7 @@ public class CloudRSACipher implements RSACipher {
 
 	/**
 	 * @param destinationName
-	 *            The name of SAP Cloud Platform destination that stores RSA key
+	 *            The name of SAP Business Technology Platform (BTP) destination that stores RSA key
 	 *            pair. If the provided value is blank (null or empty even when
 	 *            trimmed), then {@link CloudRSACipher#DEFAULT_DESTINATION_NAME}
 	 *            is used as a default value.
@@ -103,7 +103,7 @@ public class CloudRSACipher implements RSACipher {
 	}
 
 	/**
-	 * Creates {@link KeyPair} from SAP Cloud Platform destination.
+	 * Creates {@link KeyPair} from SAP Business Technology Platform (BTP) destination.
 	 * 
 	 * @see CloudRSACipher#DEFAULT_DESTINATION_NAME
 	 * @see CloudRSACipher#PUBLIC_KEY_PROPERTY
